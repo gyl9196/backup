@@ -1,0 +1,58 @@
+.Authentication_wrapper {
+  height: 100vh;
+  // display: flex;
+
+  .Authentication_image {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    background-color: black;
+    opacity: 0.9;
+    background-image: url('../../assets/images/authentication_image.png');
+    background-size:cover;
+
+    .Authentication_slogan {
+      text-align: center;
+      line-height: 38px;
+      font-size: 32px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .Authentication_copyright {
+      text-align: center;
+      line-height: 18px;
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 40px;
+    }
+    
+  }
+
+  .Authentication {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  
+    .Authentication_logo {
+      display: flex;
+      justify-content: center;
+  
+      & > img {
+        height: 100%;
+        width: 300px;
+      }
+    }
+  
+    .Authentication_container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}

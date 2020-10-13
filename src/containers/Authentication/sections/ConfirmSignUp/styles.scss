@@ -1,0 +1,41 @@
+.Authentication_confirmsignup_form {
+  width: 350px;
+  padding: 20px;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.15);
+
+  a {
+    text-decoration: none;
+  }
+
+  .Authentication_resend_code {
+
+    .Authentication_resend_code_button {
+      border: none;
+      margin: 0;
+      font-size: 14px;
+      color: #2979ff;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+
+  .Authentication_confirmsignup_signin_nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    .Authentication_confirmsignup_signin_nav_button {
+      border: none;
+      margin: 0;
+      font-size: 14px;
+      color: #2979ff;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}

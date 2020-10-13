@@ -1,0 +1,89 @@
+.Authentication_signin_form {
+  width: 350px;
+  padding: 20px;
+  // box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.15);
+
+  
+
+  .Authentication_google_signin_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin: 10px 0;
+      border: none;
+      outline: none;
+      background-color: white;
+    }
+
+    // keep it for now, maybe future use
+    .Authentication_google_signin_button {
+      .Authentication_google_signin_icon {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        background-color: white;
+      }
+  
+  
+      .Authentication_google_signin_text {
+        width: 100%;
+        color: #263238;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .Authentication_remember_forgetpassword_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .Authentication_signin_forgotpassword_nav_button {
+      border: none;
+      margin: 0;
+      font-size: 14px;
+      cursor: pointer;
+      outline: none;
+      color: #263238;
+      background-color: white;
+    }
+
+  }
+
+  .Authentication_signin_signup_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #263238;
+    margin-top: 40px;
+
+    a {
+      text-decoration: none;
+    }
+
+    .Authentication_signin_signup_nav_button {
+      border: none;
+      margin: 0;
+      font-size: 14px;
+      color: #2979ff;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+
+  .Authentication_signin_forgotpassword_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Authentication_login_error {
+    text-align: center;
+    color: red;
+  }
+}

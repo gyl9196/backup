@@ -1,0 +1,28 @@
+.Authentication_signup_form {
+    width: 350px;
+    padding: 20px;
+    // box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.15);
+  
+    button {
+      margin: 10px 0;
+    }
+  
+    .Authentication_signup_signin_nav {
+      a {
+        text-decoration: none;
+      }
+
+      .Authentication_signup_signin_nav_button {
+        border: none;
+        margin: 0;
+        font-size: 14px;
+        color: #2979ff;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .Authentication_signup_error {
+      text-align: center;
+      color: red;
+    }
+  }
